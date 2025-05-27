@@ -1,0 +1,222 @@
+@media (max-width: 480px) {
+  /* header */
+  .icono_menu {
+    display: block;
+  }
+  .union {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+
+  .contenedor_menu {
+    width: 100%;
+  }
+  .contenedor_menu ul {
+    flex-direction: column;
+    display: none;
+  }
+  .contenedor_menu ul li {
+    display: flex;
+    justify-content: center;
+  }
+  .contenedor_menu ul.abrir_menu {
+    display: flex;
+  }
+
+
+ /* slide */
+
+  .rslides img {
+    height: 700px;
+    object-position: center;
+    }
+
+  .filtro {
+    padding: 15px;
+    align-items: start;
+  }
+  .titulo_slide{
+    line-height: 1;
+  }
+ .subtitulo_slide {
+    font-size: 30px;
+    line-height: 2;
+  }
+  .botones_slide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+}
+.btn_slide1, .btn_slide2{
+  padding: 20px 30px;
+  font-size: 20px;
+}
+/* section About */
+.contenedor-about {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  /* border: 1px red solid; */
+  padding: 20px;
+  gap: 20px;
+}
+.contenedor2-about {
+  /* border: 1px green solid; */
+  width: 100%;
+}
+
+.contenedor1-about {
+  width: 100%;
+}
+.about-img{
+    width: 100%;
+}
+
+/* Section Acordeon */
+.contenedor{
+        flex-direction: column;
+    }
+    .contenedor-acordeon{
+        /* border: 1px blue solid; */
+        width: 100%;
+    }
+    .contenedor-imagen{
+        /* border: 1px violet solid; */
+        width: 100%;
+    }
+
+    /* section porcentaje */
+     .contenedor-exp{
+        flex-direction: column;
+        gap: 40px;
+        padding: 20px;
+    }
+    .contenedor-exp-texto{
+        /* border: 1px blue solid; */
+        width: 100%;
+        padding: 15px;
+    }
+    .contenedor-exp-porcentaje{
+        /* border: 1px violet solid; */
+        width: 100%;
+        padding: 15px;
+    }
+/* paralax */
+    .parallax-content {
+    position: relative; /* Para colocar el contenido encima del fondo */
+    z-index: 1; /* Para asegurar que el contenido esté visible */
+    padding: 20px;
+    background-color:rgba(35, 32, 32, 0.355);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .galeria{
+    display: grid;
+    grid-template: repeat(6, auto) / repeat(1, 1fr);
+    grid-template-areas: 
+    "grid6" 
+    "grid2" 
+    "grid3" 
+    "grid4"
+    "grid5" 
+    "grid1" ;
+    gap: 10px;
+    
+}
+/* Section Carousel */
+.slide {
+    /* 48% si son 2 y 33% si son 3 */
+    min-width: 100%;
+  }
+
+  /* modal */
+.video-imagen {
+  height: 40vh;
+  
+}
+/* section Servicios (Fansybox) */
+
+.contenedor1-galeria {
+    width: 100%;
+    order: 2;
+  }
+  .contenedor2 {
+    width: 100%;
+  }
+  .imagen4fancybox {
+    order: 0;
+  }
+  .imagen3-fancybox {
+    order: 1;
+  }
+  .imagen2-fancybox {
+    order: 2;
+  }
+  .imagen1-fancybox {
+    order: 3;
+  }
+  .texto {
+    display: none;
+  }
+
+  /* Testimonios section Grid */
+  .grid-testimonios{
+        grid-template: repeat(4, 1fr) / auto;
+        grid-column-gap: 0px;
+        grid-row-gap: 20px;
+        gap: 80px;
+    }
+
+  /* section Grid */
+  .meet{
+        grid-template: repeat(4, 1fr) / auto;
+        grid-column-gap: 0px;
+        grid-row-gap: 20px;
+    }
+
+
+    .contacto{
+    flex-direction: column;
+    gap: 40px;
+}
+.imagen-contacto{
+
+    width: 400px;
+}
+.cont-imagen{
+    width: 100%;
+}
+.formulario{
+    width: 100%;
+}
+.info{
+    width: 320px;
+  }
+
+  .info-mensaje{
+    width: 320px;
+  }
+
+
+    /* footer */
+    .footer-top {
+
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+
+.footer-final {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  gap: 20px;
+}
+}
+  
