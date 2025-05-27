@@ -48,7 +48,8 @@ contadores.forEach((elemento) => {
 });
 
 // modal
-$("#boton_modal").click(function () {
+$("#boton_modal").click(function (e) {
+  e.preventDefault();
   $("#modal").addClass("mostrar");
 });
 
